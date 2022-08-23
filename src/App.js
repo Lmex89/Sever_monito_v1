@@ -3,7 +3,7 @@ import './App.css';
 import axios from "axios";
 import React from "react";
 
-const baseURL = "http://192.168.1.200:8000/api/v1/temp_list/?view=code&code=core_0";
+const baseURL = "http://back.servicecloudlmex.co/api/v1/temp_list/?view=code&code=core_0";
 
 
 function getingTempdata(data) {
